@@ -1,0 +1,146 @@
+class ImageConst{
+  /// SVG ///
+  static const String logo = 'assets/images/svg/svglogo.svg';
+  static const String intro222 = 'assets/images/svg/intro222.svg';
+  static const String secondintro = 'assets/images/svg/secondintro.svg';
+  // static const String back = 'assets/images/svg/backsvg.svg';
+  static const String intro1 = 'assets/images/svg/intro1.svg';
+  static const String intro2 = 'assets/images/svg/intro2.svg';
+  static const String intro3 = 'assets/images/svg/intro3.svg';
+  static const String forgot = 'assets/images/svg/forgot.svg';
+  static const String bar = 'assets/images/svg/bar.svg';
+  static const String garage1 = 'assets/images/svg/garage1.svg';
+  static const String error = 'assets/images/svg/error.svg';
+  static const String chat2 = 'assets/images/svg/chat.svg';
+  static const String estate = 'assets/images/svg/estate.svg';
+  static const String hatch = 'assets/images/svg/hatch.svg';
+  static const String salon = 'assets/images/svg/salon.svg';
+  static const String van = 'assets/images/svg/van.svg';
+  static const String convertible = 'assets/images/svg/convertible.svg';
+  static const String apple = 'assets/images/svg/apple.svg';
+  static const String defaultp = 'assets/images/svg/defaultp.svg';
+  static const String loginBack = 'assets/images/svg/loginBack.svg';
+  static const String splashBack = 'assets/images/svg/splashBack.svg';
+  static const String noVehicle = 'assets/images/svg/novehicle.svg';
+  static const String noSP = 'assets/images/svg/nosp.svg';
+  static const String noGarage = 'assets/images/svg/nogarage.svg';
+  static const String noDealer = 'assets/images/svg/nodealer.svg';
+  static const String noResult = 'assets/images/svg/noResult.svg';
+
+  /// PNG ///
+  static const String logoP = 'assets/images/png/motorp.png';
+  static const String noimage = 'assets/images/png/noimage.png';
+  static const String loaderLogo = 'assets/images/png/loaderLogo.png';
+  static const String backPng2 = 'assets/images/png/back2.png';
+  static const String man = 'assets/images/png/man.png';
+  static const String maddy = 'assets/images/png/maddy.png';
+  static const String d1 = 'assets/images/png/d1.png';
+  static const String benz2 = 'assets/images/png/benz2.png';
+  static const String loader = 'assets/images/png/loader.png';
+  static const String backPng = 'assets/images/png/backpng.png';
+  // static const String backPng3 = 'assets/images/png/back3.png';
+  static const String benz = 'assets/images/png/benz.png';
+  static const String carad = 'assets/images/png/carad.png';
+  static const String audi = 'assets/images/png/audi.png';
+  static const String bmw = 'assets/images/png/bmw.png';
+  static const String light = 'assets/images/png/light.png';
+  static const String backlight = 'assets/images/png/backlight.png';
+  static const String wheel = 'assets/images/png/wheel.png';
+  static const String garage22 = 'assets/images/png/garage2.png';
+  static const String garage3 = 'assets/images/png/garage3.png';
+
+  static const String logo2 = 'assets/images/png/logo.png';
+
+  static const String g1 = 'assets/images/png/g1.png';
+  static const String g2 = 'assets/images/png/g2.png';
+  static const String g3 = 'assets/images/png/g3.png';
+  static const String g4 = 'assets/images/png/g4.png';
+  static const String g5 = 'assets/images/png/g5.png';
+  // static const String g6 = 'assets/images/png/g6.png';
+  // static const String g7 = 'assets/images/png/g7.png';
+  // static const String image = 'assets/images/png/image.png';
+  static const String advertise = 'assets/images/png/advertise.png';
+  static const String advertise2 = 'assets/images/png/advertise2.png';
+  static const String vehicle = 'assets/images/png/vehicle.png';
+  static const String applep = 'assets/images/png/applep.png';
+  static const String intro22 = 'assets/images/png/intro22.png';
+  static const String noData = 'assets/images/png/nodata.png';
+
+
+  /// JPG ///
+  static const String dp = 'assets/images/jpg/dpp.jpg';
+
+  /// ICON ///
+  static const String check = 'assets/icons/check.svg';
+  static const String home = 'assets/icons/home.svg';
+  static const String item = 'assets/icons/item.svg';
+  static const String fav = 'assets/icons/fav.svg';
+  static const String profile = 'assets/icons/profile.svg';
+  static const String menu = 'assets/icons/menu.svg';
+  static const String bell = 'assets/icons/bell.svg';
+  static const String speaker = 'assets/icons/speaker.svg';
+  static const String car = 'assets/icons/car.svg';
+  static const String sp = 'assets/icons/sp.svg';
+  static const String garage = 'assets/icons/garage.svg';
+  static const String garage2 = 'assets/icons/garage2.svg';
+  static const String rent = 'assets/icons/rent.svg';
+  static const String sell = 'assets/icons/sell.svg';
+  static const String sell2 = 'assets/icons/sell.svg';
+  static const String heart = 'assets/icons/heart.svg';
+  static const String noti = 'assets/icons/noti.svg';
+  static const String myBroadcast = 'assets/icons/myBroadcast.svg';
+  static const String createBroadcast = 'assets/icons/createBroadcast.svg';
+  static const String info = 'assets/icons/info.svg';
+  static const String terms = 'assets/icons/terms.svg';
+  static const String privacy = 'assets/icons/privacy.svg';
+  static const String enquiry = 'assets/icons/enquiry.svg';
+  static const String touch = 'assets/icons/touch.svg';
+  static const String chat = 'assets/icons/chat.svg';
+  static const String delete = 'assets/icons/delete.svg';
+  static const String pencil = 'assets/icons/pencil.svg';
+  static const String camera = 'assets/icons/camera.svg';
+  static const String call = 'assets/icons/call.svg';
+  static const String mail = 'assets/icons/mail2.svg';
+  static const String pin = 'assets/icons/pin2.svg';
+  static const String web = 'assets/icons/web.svg';
+  static const String del = 'assets/icons/del.svg';
+  static const String img = 'assets/icons/img.svg';
+  static const String cam = 'assets/icons/cam.svg';
+  static const String upload = 'assets/icons/uploadsvg.svg';
+  static const String calender = 'assets/icons/calender.svg';
+  static const String ci = 'assets/icons/ci.svg';
+  static const String ff = 'assets/icons/ff.svg';
+  static const String gear = 'assets/icons/gear.svg';
+  static const String nn = 'assets/icons/nn.svg';
+  static const String fue = 'assets/icons/fue.svg';
+  static const String mil = 'assets/icons/mil.svg';
+  static const String company = 'assets/icons/company.svg';
+  static const String doc = 'assets/icons/doc.svg';
+  static const String clock = 'assets/icons/gtime.svg';
+  static const String service = 'assets/icons/service.svg';
+  static const String person = 'assets/icons/person2.svg';
+  static const String lp = 'assets/icons/lp.svg';
+  static const String time = 'assets/icons/time.svg';
+  static const String glass = 'assets/icons/glass.svg';
+  static const String city = 'assets/icons/city.svg';
+  static const String lp2 = 'assets/icons/lp2.svg';
+  static const String type = 'assets/icons/type.svg';
+  static const String reset = 'assets/icons/reset.svg';
+  static const String cross = 'assets/icons/cancel.svg';
+  static const String gallery = 'assets/icons/gallery.svg';
+  static const String send = 'assets/icons/sent.svg';
+  static const String q = 'assets/icons/q.svg';
+  static const String qc = 'assets/icons/qc.svg';
+  static const String que = 'assets/icons/que.png';
+
+  static const String call2 = 'assets/icons/call3.svg';
+  static const String f = 'assets/icons/f.svg';
+  static const String fuel = 'assets/icons/fuel.svg';
+  static const String info2 = 'assets/icons/info2.svg';
+  static const String mail2 = 'assets/icons/mail2.svg';
+  static const String milage = 'assets/icons/milage.svg';
+  static const String neww = 'assets/icons/new.svg';
+  static const String office = 'assets/icons/office.svg';
+  static const String setting = 'assets/icons/setting.svg';
+  static const String web2 = 'assets/icons/web2.svg';
+}

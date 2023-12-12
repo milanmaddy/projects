@@ -1,0 +1,16 @@
+<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="line-md:account-delete">
+<g id="Group">
+<path id="Vector" d="M1.23529 18.5294V17.5412C1.23529 15.3581 3.07882 13.5883 5.35294 13.5883H9.47058C11.7447 13.5883 13.5882 15.3581 13.5882 17.5412V18.5294" fill="#FF301E"/>
+<path id="Vector_2" d="M7.56616 11.375C6.11642 11.375 4.94116 10.1998 4.94116 8.75C4.94116 7.30026 6.11642 6.125 7.56616 6.125C9.01595 6.125 10.1912 7.30026 10.1912 8.75C10.1912 10.1998 9.01595 11.375 7.56616 11.375Z" fill="#FF301E" stroke="#FF301E" stroke-linecap="round"/>
+<g id="Vector_3">
+<path d="M13.125 2.625L18.375 7.875L13.125 2.625Z" fill="#FF301E"/>
+<path d="M13.125 2.625L18.375 7.875" stroke="#FF301E" stroke-linecap="round"/>
+</g>
+<g id="Vector_4">
+<path d="M18.375 2.625L13.125 7.875L18.375 2.625Z" fill="#FF301E"/>
+<path d="M18.375 2.625L13.125 7.875" stroke="#FF301E" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>

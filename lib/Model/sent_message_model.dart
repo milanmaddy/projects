@@ -1,0 +1,146 @@
+class SentMessageModel {
+  int? statusCode;
+  bool? isSuccess;
+  String? message;
+  Data? data;
+
+  SentMessageModel({this.statusCode, this.isSuccess, this.message, this.data});
+
+  SentMessageModel.fromJson(Map<String, dynamic> json) {
+    statusCode = json['statusCode'];
+    isSuccess = json['isSuccess'];
+    message = json['message'];
+    data = json['data'] != null ? new Data.fromJson(json['data']) : null;
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['statusCode'] = this.statusCode;
+    data['isSuccess'] = this.isSuccess;
+    data['message'] = this.message;
+    if (this.data != null) {
+      data['data'] = this.data!.toJson();
+    }
+    return data;
+  }
+}
+
+class Data {
+  Conversion? conversion;
+
+  Data({this.conversion});
+
+  Data.fromJson(Map<String, dynamic> json) {
+    conversion = json['conversion'] != null
+        ? new Conversion.fromJson(json['conversion'])
+        : null;
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    if (this.conversion != null) {
+      data['conversion'] = this.conversion!.toJson();
+    }
+    return data;
+  }
+}
+
+class Conversion {
+  String? inboxId;
+  String? messageId;
+  String? userId;
+  String? userName;
+  Content? content;
+  String? messagedAt;
+  String? messageDate;
+  String? messageTime;
+  int? type;
+
+  Conversion(
+      {this.inboxId,
+        this.messageId,
+        this.userId,
+        this.userName,
+        this.content,
+        this.messagedAt,
+        this.messageDate,
+        this.messageTime,
+        this.type});
+
+  Conversion.fromJson(Map<String, dynamic> json) {
+    inboxId = json['inboxId'];
+    messageId = json['messageId'];
+    userId = json['userId'];
+    userName = json['userName'];
+    content =
+    json['content'] != null ? new Content.fromJson(json['content']) : null;
+    messagedAt = json['messagedAt'];
+    messageDate = json['messageDate'];
+    messageTime = json['messageTime'];
+    type = json['type'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['inboxId'] = this.inboxId;
+    data['messageId'] = this.messageId;
+    data['userId'] = this.userId;
+    data['userName'] = this.userName;
+    if (this.content != null) {
+      data['content'] = this.content!.toJson();
+    }
+    data['messagedAt'] = this.messagedAt;
+    data['messageDate'] = this.messageDate;
+    data['messageTime'] = this.messageTime;
+    data['type'] = this.type;
+    return data;
+  }
+}
+
+class Content {
+  String? message;
+  List<Files>? files;
+
+  Content({this.message, this.files});
+
+  Content.fromJson(Map<String, dynamic> json) {
+    message = json['message'];
+    if (json['files'] != null) {
+      files = <Files>[];
+      json['files'].forEach((v) {
+        files!.add(new Files.fromJson(v));
+      });
+    }
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['message'] = this.message;
+    if (this.files != null) {
+      data['files'] = this.files!.map((v) => v.toJson()).toList();
+    }
+    return data;
+  }
+}
+
+class Files {
+  String? fileKey;
+  String? fileUrl;
+  String? fileType;
+
+  Files({this.fileKey, this.fileUrl, this.fileType});
+
+  Files.fromJson(Map<String, dynamic> json) {
+    fileKey = json['fileKey'];
+    fileUrl = json['fileUrl'];
+    fileType = json['fileType'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['fileKey'] = this.fileKey;
+    data['fileUrl'] = this.fileUrl;
+    data['fileType'] = this.fileType;
+    return data;
+  }
+}
